@@ -2,13 +2,13 @@ import React from "react";
 
 const App: React.FC = () => {
   const handleClick = (): void => {
-    alert("Tugma bosildi 🚀");
+    alert("Tugma bosilmadi  🚀");
   };
 
   return (
     <div
       style={{
-        minHeight: "100vh",
+        minHeight: "100vh", 
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -28,7 +28,7 @@ const App: React.FC = () => {
       >
         <h1 style={{ color: "#222", marginBottom: "10px" }}>
           👋 Salom
-        </h1>
+        </h1>5
 
         <p style={{ color: "#555", marginBottom: "22px" }}>
           Bu TSX (React + TypeScript) bilan qilingan dizayn
